@@ -43,8 +43,8 @@
 
 
 var request = require('request');
-var consumerKey = 'consumer key here';
-var consumerSecret = 'consumer secret here';
+var consumerKey = 'ocUM7ztDUWHGTP7hIU4bVA';
+var consumerSecret = 'naxLq90AuZgeDtcHB8AlkmAtG8ayRGIjPGqejGjE';
 var bearerToken;
 
 

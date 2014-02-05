@@ -9,11 +9,6 @@ applications: #Reference http://docs.cloudfoundry.com/docs/using/deploying-apps/
   path: . #Path to the application to be pushed
   command: node app.js #The command to use to start the application
   services:
-     ctas-tsa-node: #Identifier for CompaniesTextAnalyticsService Bound Service instance
-      label: CompanyTextAnalyticsService
-      provider: jStart
-      version: '0.1'
-      plan: 'free'
      ntas-tsa-node: #Identifier for NamesTextAnalyticsService Bound Service instance
       label: NamesTextAnalyticsService
       provider: jStart
