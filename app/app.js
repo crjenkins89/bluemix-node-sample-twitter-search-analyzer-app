@@ -68,9 +68,6 @@ if (process.env.VCAP_SERVICES) {
   var services = JSON.parse(process.env.VCAP_SERVICES);
 
   for (var svcName in services) {
-    if (svcName.match(/^[Cc]ompanies.*/)) {
-      app.set('company_analytics_url', services[svcName][0].credentials.url); 
-    }
     if (svcName.match(/^[Nn]ames.*/)) {
       app.set('name_analytics_url', services[svcName][0].credentials.url);
     }
